@@ -6,6 +6,8 @@
     android:gravity="center"
     android:orientation="vertical"
     android:background="@color/titan_background">
+    android:orientation="vertical"
+    android:gravity="center">
 
     <TextView
         android:layout_width="wrap_content"
@@ -14,5 +16,21 @@
         android:textSize="24sp"
         android:textColor="@color/black"
         android:fontFamily="@font/montserrat_alternates_bold" />
+        android:text="Hello World!">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnIntentNuevoMiembro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nuevo Miembro">
+    </Button>
+
+</LinearLayout>
+
+
+
+
+
 
 </LinearLayout>

@@ -15,6 +15,41 @@
         <!-- Splash - pantalla inicial -->
         <activity
             android:name=".SplashActivity"
+            android:name=".ActividadCobradaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CuotaCobradaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilNoSocioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilSocioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuPrincipalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityConfirmarPagoSocio"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityListaMiembros"
+            android:exported="false" />
+        <activity
+            android:name=".CobrarCuotaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EleccionActividadActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".NuevoNoSocioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NuevoSocioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
