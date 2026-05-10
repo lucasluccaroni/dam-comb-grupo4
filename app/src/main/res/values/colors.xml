@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="red">#D63A27</color>
+    <color name="ivory">#F6EFDF</color>
+    <color name="rose_secondary">#CF6A60</color>
+    <color name="smoke_white">#FAFAFA</color>
+    <color name="titan_nav_inactive_background">#9E9E9E</color>
+    <color name="titan_nav_inactive">9F9F9F</color>
 </resources>
