@@ -115,7 +115,7 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="65dp"
                         android:layout_height="65dp"
-                        app:cardBackgroundColor="@color/titan_avatar"
+                        app:cardBackgroundColor="@color/titan_bg_avatar"
                         app:cardCornerRadius="40dp"
                         app:cardElevation="14dp">
 
@@ -186,7 +186,7 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="65dp"
                         android:layout_height="65dp"
-                        app:cardBackgroundColor="@color/titan_avatar"
+                        app:cardBackgroundColor="@color/titan_bg_avatar"
                         app:cardCornerRadius="40dp"
                         app:cardElevation="14dp">
 
@@ -256,7 +256,7 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="65dp"
                         android:layout_height="65dp"
-                        app:cardBackgroundColor="@color/titan_avatar"
+                        app:cardBackgroundColor="@color/titan_bg_avatar"
                         app:cardCornerRadius="40dp"
                         app:cardElevation="14dp">
 
@@ -326,7 +326,7 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="65dp"
                         android:layout_height="65dp"
-                        app:cardBackgroundColor="@color/titan_avatar"
+                        app:cardBackgroundColor="@color/titan_bg_avatar"
                         app:cardCornerRadius="40dp"
                         app:cardElevation="14dp">
 
@@ -397,7 +397,7 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="65dp"
                         android:layout_height="65dp"
-                        app:cardBackgroundColor="@color/titan_avatar"
+                        app:cardBackgroundColor="@color/titan_bg_avatar"
                         app:cardCornerRadius="40dp"
                         app:cardElevation="14dp">
 
