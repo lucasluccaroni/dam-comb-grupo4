@@ -12,13 +12,63 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Damcombgrupo4faigenbomfloresjaragrauluccaroni">
         <activity
-            android:name=".MainActivity"
+            android:name=".ActivitySplash"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityVencenHoy"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityLogin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActividadCobradaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CuotaCobradaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilNoSocioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilSocioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuPrincipalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityConfirmarPagoSocio"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityConfirmarPagoNoSocio"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityListaMiembros"
+            android:exported="false" />
+        <activity
+            android:name=".CobrarCuotaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EleccionActividadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NuevoNoSocioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NuevoSocioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".EleccionNuevoMiembroActivity"
+            android:exported="false">
         </activity>
     </application>
 
