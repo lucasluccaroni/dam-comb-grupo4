@@ -11,15 +11,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Damcombgrupo4faigenbomfloresjaragrauluccaroni">
+
+        <!-- Splash - pantalla inicial -->
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Login -->
+        <activity android:name=".LoginActivity" />
+
+        <!-- Vencen Hoy -->
+        <activity android:name=".VencenHoyActivity" />
+
+        <!-- Main - pantalla de tu compañero -->
+        <activity android:name=".MainActivity" />
+
     </application>
 
 </manifest>

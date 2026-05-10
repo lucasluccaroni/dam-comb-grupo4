@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/ivory"
+    android:background="@color/titan_card"
     android:fillViewport="true">
 
     <LinearLayout
@@ -66,7 +66,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:hint="Nombre de usuario"
-                    android:textColorHint="@color/titan_nav_inactive_background"
+                    android:textColorHint="@color/titan_nav_inactive"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     android:fontFamily="@font/quicksand_medium"
@@ -107,7 +107,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:hint="Contraseña"
-                    android:textColorHint="@color/titan_nav_inactive_background"
+                    android:textColorHint="@color/titan_nav_inactive"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     android:fontFamily="@font/quicksand_medium"
