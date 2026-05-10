@@ -12,6 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Damcombgrupo4faigenbomfloresjaragrauluccaroni">
         <activity
+            android:name=".ActividadCobradaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CuotaCobradaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilNoSocioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilSocioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuPrincipalActivity"
             android:name=".ActivityConfirmarPagoNoSocio"
             android:exported="false" />
         <activity
